@@ -1,0 +1,8 @@
+2020-08-08T09:29:24+02:00 INFO Shutdown complete
+2020-09-08T09:29:24+02:00 INFO Shutdown complete
+2020-08-12T09:29:24+02:00 INFO Shutdown complete
+2020-08-12T19:19:36+02:00 INFO Shutdown complete
+2021-08-08T09:28:59+02:00 INFO Application starting
+2021-08-08T09:29:20+02:00 ERROR Unable to load configuration 
+2021-08-08T09:29:21+02:00 INFO Shutdown started
+2021-08-08T09:29:24+02:00 INFO Shutdown complete
