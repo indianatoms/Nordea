@@ -10,8 +10,9 @@ chmod +x filter.py
 ```
 
 ## Usage 
-##### Usage: filter.py [options]
-
+```
+./filter.py [options]
+```
 ##### Options:
   -h, --help            show this help message and exit
   -f FILE, --file=FILE  Variable used to specify a file on which the filter
@@ -47,7 +48,7 @@ chmod +x filter.py
 
   -e, --error           Variable used to specify that olny ERROR logs should
                         be displayed.
-                        
+
 
 ## Example usage based on log.txt file
 
