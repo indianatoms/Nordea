@@ -15,6 +15,7 @@ chmod +x filter.py
 ```
 ##### Options:
   -h, --help            show this help message and exit
+
   -f FILE, --file=FILE  Variable used to specify a file on which the filter
                         will be run. If no value is defined, no value will be
                         filtered.
