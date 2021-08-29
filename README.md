@@ -8,10 +8,18 @@
 ```
 chmod +x filter.py
 ```
+or
+```
+chmod +x filter.sh
+```
 
 ## Usage 
 ```
 ./filter.py [options]
+```
+or
+```
+./filter.sh [options]
 ```
 ##### Options:
   -h, --help            show this help message and exit
@@ -56,16 +64,20 @@ chmod +x filter.py
 Filter only error logs with minute value equal to 29
 ```
 ./filter.py -f log.txt -M 29 -e
+./filter.sh -f log.txt -M 29 -e
+
 ```
 
 Filter all logs with year value equal to 2020, month value equal to 08, day value equal to 12 and hour value equal to 19.
 ```
 ./filter.py -f log.txt -y 2020 -m 08 -d 12 -H 19
+./filter.sh -f log.txt -y 2020 -m 08 -d 12 -H 19
 ```
 
 Filter all logs with minute value equal to 29 and second value equal to 24.
 ```
 ./filter.py -f log.txt -M 29 -S 24
+./filter.sh -f log.txt -M 29 -S 24
 ```
 
 ### Assumptions
