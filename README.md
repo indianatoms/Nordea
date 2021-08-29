@@ -55,7 +55,7 @@ or
                         displayed. If no value is defined, no value will be
                         filtered.
 
-  -e, --error           Variable used to specify that olny ERROR logs should
+  -e, --error           Variable used to specify that only ERROR logs should
                         be displayed.
 
 
@@ -82,7 +82,7 @@ Filter all logs with minute value equal to 29 and second value equal to 24.
 
 ### Assumptions
 In this task I have assumed that: all logs are following the ISO 8601 date and time structure, the second element is responsible for defining if the log is and error log, the last and third log element is holding the actual log message.
-Due to the fact that we are following ISO 8601 standard when user is defining month, day, hour, minute or second sigle decimal digits need to have 0 as a prefix.
+Due to the fact that we are following ISO 8601 standard when user is defining month, day, hour, minute or second single decimal digits need to have 0 as a prefix.
 Correct form
 ```
 ./filter.py -f log.txt -M 09 -e
